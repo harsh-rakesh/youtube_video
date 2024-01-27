@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "c75751b3-e9a2-45f2-9035-bee0e4f6ccd6",
+		"name": "Youtube",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20624592"
+	},
+	"item": [
+		{
+			"name": "Fetch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8001/fetch/?query=django",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001",
+					"path": [
+						"fetch",
+						""
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "django"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "csrftoken=ILaBNruIYO6O5L4XEhVoIEMehR9sHOTDMnM67L19Gnh3mq5W95yCcHstOK2IYJ6c"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8001/search/?query=bgmi",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001",
+					"path": [
+						"search",
+						""
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "bgmi"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dashboard videos",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "csrftoken=ILaBNruIYO6O5L4XEhVoIEMehR9sHOTDMnM67L19Gnh3mq5W95yCcHstOK2IYJ6c"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8001/videos/?page=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001",
+					"path": [
+						"videos",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
