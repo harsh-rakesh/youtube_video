@@ -11,7 +11,8 @@ This Django project fetches and stores YouTube videos using the YouTube API, wit
 2. Start the Docker containers:
   -  docker-compose up
 
-#Usage
+# Usage
+
 Fetch YouTube Videos:
 
 - To fetch YouTube videos in the background, trigger the Celery task by visiting:
