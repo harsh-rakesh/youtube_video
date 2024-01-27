@@ -21,10 +21,10 @@ Fetch YouTube Videos:
   -  Paginated Videos: http://localhost:8000/videos/
   -  Search Videos: http://localhost:8000/search/?query=your_query
 
-##Stop the Application:
+# Stop the Application:
 
 Press Ctrl + C in the terminal where docker-compose up is running.
 
-##Cleanup:
+# Cleanup:
 
 To stop and remove the Docker containers, run:
