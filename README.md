@@ -7,9 +7,9 @@ This Django project fetches and stores YouTube videos using the YouTube API, wit
 - Docker and Docker Compose installed on your machine.
 
 1. Build the Docker images:
-  docker-compose build
+  -  docker-compose build
 2. Start the Docker containers:
-  docker-compose up
+  -  docker-compose up
 
 #Usage
 Fetch YouTube Videos:
@@ -28,3 +28,4 @@ Press Ctrl + C in the terminal where docker-compose up is running.
 # Cleanup:
 
 To stop and remove the Docker containers, run:
+  -  docker-compose down
