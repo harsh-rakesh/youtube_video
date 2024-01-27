@@ -16,6 +16,7 @@ This Django project fetches and stores YouTube videos using the YouTube API, wit
 Fetch YouTube Videos:
 
 - To fetch YouTube videos in the background, trigger the Celery task by visiting:
+  
   http://localhost:8000/fetch/
 
 - API Endpoints:
